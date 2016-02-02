@@ -1,0 +1,8 @@
+<?php
+
+ if(time() >= $last_run + (60 * 5)) { // 60 * 5 is 5 minutes
+     // do your task here
+     // save the last run time to a file, database, etc
+ }
+
+?>
